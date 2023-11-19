@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+</head>
+<body>
+    <h1>Task Management</h1>
+    <form action="/add" method="post">
+        <label for="name">Task Name:</label>
+        <input type="text" name="name" required>
+        <label for="description">Description:</label>
+        <textarea name="description"></textarea>
+        <button type="submit">Add Task</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                <a href="{{ url_for('view_task', task_id=task.id) }}">{{ task.name }}</a> - {{ task.description }} ({{ task.status }})
+                <a href="{{ url_for('update', task_id=task.id, new_status='In Progress') }}">Start</a>
+                <a href="{{ url_for('update', task_id=task.id, new_status='Completed') }}">Complete</a>
+                <a href="{{ url_for('delete', task_id=task.id) }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

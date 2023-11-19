@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Details</title>
+</head>
+<body>
+    <h1>Task Details</h1>
+    <p>ID: {{ task.id }}</p>
+    <p>Name: {{ task.name }}</p>
+    <p>Description: {{ task.description }}</p>
+    <p>Status: {{ task.status }}</p>
+
+    <!-- Thêm nút để chuyển đến trang chỉnh sửa -->
+    <a href="{{ url_for('edit_task', task_id=task.id) }}">Edit</a>
+
+    <a href="{{ url_for('index') }}">Back to Tasks</a>
+</body>
+</html>
