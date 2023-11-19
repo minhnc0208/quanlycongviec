@@ -1,11 +1,20 @@
 import logging
+import os
+
+from logging.handlers import TimedRotatingFileHandler
+
 from flask import Flask, render_template, request, redirect, url_for, flash
+
 from connect import create_connection  # Import hàm tạo kết nối
 
-app = Flask(__name__)
+# Tạo thư mục logs nếu nó không tồn tại
+if not os.path.exists('logs'):
+    os.makedirs('logs')
 
 # Cấu hình logging
-logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s')
+logging.basicConfig(filename='logs/app.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s')
+
+app = Flask(__name__)
 
 # Sử dụng hàm create_connection từ connect.py để tạo kết nối
 conn = create_connection()
