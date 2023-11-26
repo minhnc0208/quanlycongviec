@@ -1,0 +1,36 @@
+<!-- Task List -->
+<ul>
+    {% for task in tasks %}
+    <li>
+        <div class="btn-group" role="group">
+            <a href="{{ url_for('view_task', task_id=task.id) }}" class="btn btn-secondary">{{ task.name }}</a>-
+            <a href="#" class="btn btn-secondary">{{
+                task.description }}</a>
+            <span class="badge bg-info">{{ task.status }} </span>
+            <a href="{{ url_for('update', task_id=task.id, new_status='In Progress') }}"
+                class="btn btn-primary">Start</a>
+            <a href="{{ url_for('update', task_id=task.id, new_status='Completed') }}"
+                class="btn btn-success">Complete</a>
+            <a href="{{ url_for('delete', task_id=task.id) }}" class="btn btn-danger">Delete</a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<!-- Pagination -->
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        {% if tasks.has_prev %}
+        <li class="page-item"><a class="page-link"
+                href="{{ url_for('index', page=tasks.prev_num) }}">Previous</a>
+        </li>
+        {% endif %}
+        <li class="page-item disabled"><span class="page-link">Page {{ tasks.page }} of {{ tasks.pages }}</span>
+        </li>
+        {% if tasks.has_next %}
+        <li class="page-item"><a class="page-link" href="{{ url_for('index', page=tasks.next_num) }}">Next</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

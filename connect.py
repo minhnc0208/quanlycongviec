@@ -1,4 +1,5 @@
 import pyodbc
+import urllib  # Import the urllib module
 
 # Thay đổi các thông tin kết nối dựa trên cấu hình của bạn
 def create_connection():

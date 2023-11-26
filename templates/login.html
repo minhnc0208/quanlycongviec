@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login_style.css') }}">
+    <link rel="stylesheet" href="D:\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js">
+    <link rel="stylesheet" href="D:\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\css">
+</head>
+
+<body>
+    <div class="container login-container">
+        <h2 class="text-center">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Your Logo"
+                style="height: 50px; margin-right: 10px;">
+        </h2>
+
+        <h2 class="text-center">Login</h2>
+        {% if error %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+        <form method="post" action="{{ url_for('login') }}">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required class="form-control">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" required class="form-control">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
