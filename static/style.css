@@ -32,3 +32,36 @@ li {
   float: right;
 }
 
+/* Trong file style.css */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #4caf50; /* Màu xanh lá cây */
+  color: #fff; /* Màu chữ trắng */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-out; /* Animation xuất hiện */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Định dạng vị trí của user-info và nút đăng xuất */
+.user-info {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.logout-btn {
+  margin-top: 5px;
+}

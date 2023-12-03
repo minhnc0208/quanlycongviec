@@ -2667,3 +2667,947 @@
 2023-11-26 19:35:51,363 INFO: 127.0.0.1 - - [26/Nov/2023 19:35:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2023-11-26 19:38:42,561 INFO: 127.0.0.1 - - [26/Nov/2023 19:38:42] "GET /index HTTP/1.1" 200 -
 2023-11-26 19:38:42,615 INFO: 127.0.0.1 - - [26/Nov/2023 19:38:42] "GET /static/style.css HTTP/1.1" 200 -
+2023-11-26 19:43:54,980 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\connect.py', reloading
+2023-11-26 19:43:55,166 INFO:  * Restarting with stat
+2023-11-26 19:47:24,788 INFO:  * Restarting with stat
+2023-11-26 19:47:27,658 WARNING:  * Debugger is active!
+2023-11-26 19:47:27,671 INFO:  * Debugger PIN: 119-588-068
+2023-11-26 19:48:34,940 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:34] "[32mGET / HTTP/1.1[0m" 302 -
+2023-11-26 19:48:34,960 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:34] "GET /login HTTP/1.1" 200 -
+2023-11-26 19:48:35,063 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:35] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-11-26 19:48:35,069 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:35] "GET /static/logo.png HTTP/1.1" 200 -
+2023-11-26 19:48:38,717 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-26 19:48:38,732 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:38] "GET /index HTTP/1.1" 200 -
+2023-11-26 19:48:38,762 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:38] "GET /static/style.css HTTP/1.1" 200 -
+2023-11-26 19:48:40,876 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:40] "GET /index HTTP/1.1" 200 -
+2023-11-26 19:48:40,904 INFO: 127.0.0.1 - - [26/Nov/2023 19:48:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-26 19:48:55,860 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-26 19:48:55,860 INFO: [33mPress CTRL+C to quit[0m
+2023-11-26 19:48:55,862 INFO:  * Restarting with stat
+2023-11-26 19:48:56,545 WARNING:  * Debugger is active!
+2023-11-26 19:48:56,552 INFO:  * Debugger PIN: 119-588-068
+2023-11-26 19:49:01,695 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:01] "[32mGET / HTTP/1.1[0m" 302 -
+2023-11-26 19:49:01,708 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:01] "GET /login HTTP/1.1" 200 -
+2023-11-26 19:49:01,819 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:01] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-11-26 19:49:01,820 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:01] "GET /static/logo.png HTTP/1.1" 200 -
+2023-11-26 19:49:03,527 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-26 19:49:03,542 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:03] "GET /index HTTP/1.1" 200 -
+2023-11-26 19:49:03,577 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-11-26 19:49:35,885 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-11-26 19:49:35,897 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:35] "GET /login HTTP/1.1" 200 -
+2023-11-26 19:49:35,939 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:35] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-11-26 19:49:35,989 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:35] "GET /static/logo.png HTTP/1.1" 200 -
+2023-11-26 19:49:42,364 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:42] "POST /login HTTP/1.1" 200 -
+2023-11-26 19:49:42,470 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:42] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-11-26 19:49:42,519 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:42] "GET /static/logo.png HTTP/1.1" 200 -
+2023-11-26 19:49:46,541 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-11-26 19:49:46,549 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:46] "GET /index HTTP/1.1" 200 -
+2023-11-26 19:49:46,593 INFO: 127.0.0.1 - - [26/Nov/2023 19:49:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:30:47,525 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 16:30:47,525 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 16:30:47,528 INFO:  * Restarting with stat
+2023-12-03 16:30:51,754 WARNING:  * Debugger is active!
+2023-12-03 16:30:51,767 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 16:31:22,930 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:22] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 16:31:23,035 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:23] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:31:23,180 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:23] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:31:23,189 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:23] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:31:23,200 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 16:31:24,528 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:31:24,580 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:24] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:31:24,635 INFO: 127.0.0.1 - - [03/Dec/2023 16:31:24] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:33:18,990 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:33:18,997 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:18] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:33:19,031 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:19] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:33:19,073 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:19] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 16:33:20,148 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:33:20,155 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:20] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:33:20,197 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:33:32,030 INFO: Viewed task details: Task ID 74
+2023-12-03 16:33:32,047 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:32] "GET /task/74 HTTP/1.1" 200 -
+2023-12-03 16:33:32,091 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:32] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2023-12-03 16:33:36,748 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:36] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:33:36,782 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:33:37,861 INFO: Viewed task details: Task ID 75
+2023-12-03 16:33:37,862 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:37] "GET /task/75 HTTP/1.1" 200 -
+2023-12-03 16:33:37,897 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:37] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2023-12-03 16:33:38,614 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:38] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:33:38,650 INFO: 127.0.0.1 - - [03/Dec/2023 16:33:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:36:42,751 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:42] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:36:42,770 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:42] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:36:46,139 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:46] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:36:46,160 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:46] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:36:46,187 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 16:36:48,673 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:36:48,688 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:48] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:36:48,726 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:48] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:36:48,733 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:48] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:36:49,527 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:36:49,536 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:49] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:36:49,563 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:36:52,885 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:36:52,891 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:52] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:36:52,918 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:52] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:36:52,965 INFO: 127.0.0.1 - - [03/Dec/2023 16:36:52] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 16:40:27,366 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:27] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:40:27,383 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:27] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:40:27,403 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:27] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:40:28,693 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:40:28,707 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:28] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:40:28,729 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:28] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:40:28,742 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:28] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:40:28,754 INFO: 127.0.0.1 - - [03/Dec/2023 16:40:28] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:44:42,009 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 16:44:42,108 INFO:  * Restarting with stat
+2023-12-03 16:44:43,411 WARNING:  * Debugger is active!
+2023-12-03 16:44:43,420 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 16:44:45,524 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 16:44:45,604 INFO:  * Restarting with stat
+2023-12-03 16:44:52,601 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 16:44:52,601 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 16:44:52,603 INFO:  * Restarting with stat
+2023-12-03 16:44:53,428 WARNING:  * Debugger is active!
+2023-12-03 16:44:53,437 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 16:45:16,049 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 16:45:16,137 INFO:  * Restarting with stat
+2023-12-03 16:45:16,961 WARNING:  * Debugger is active!
+2023-12-03 16:45:16,969 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 16:46:09,256 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 16:46:09,506 INFO:  * Restarting with stat
+2023-12-03 16:46:10,744 WARNING:  * Debugger is active!
+2023-12-03 16:46:10,752 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 16:46:46,330 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:46] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:46:46,361 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:46] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:46:46,452 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:46] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:46:46,472 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:46] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:46:49,564 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:49] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 16:46:49,598 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:49] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:46:49,636 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:49] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:46:49,694 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:49] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:46:49,722 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 16:46:50,723 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:46:50,733 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:50] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:46:50,778 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:50] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:46:50,784 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:46:50,807 INFO: 127.0.0.1 - - [03/Dec/2023 16:46:50] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:47:09,344 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:47:09,350 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:09] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:47:09,383 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:09] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:47:09,422 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:09] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:47:10,414 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:47:10,424 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:10] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:47:10,451 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:10] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:47:10,455 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:47:10,481 INFO: 127.0.0.1 - - [03/Dec/2023 16:47:10] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:49:40,205 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:49:40,214 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:40] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:49:40,242 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:40] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:49:40,281 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:40] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:49:41,497 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:49:41,535 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:41] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:49:41,570 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:41] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:49:41,576 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:49:41,602 INFO: 127.0.0.1 - - [03/Dec/2023 16:49:41] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:20,590 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:20] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:50:20,613 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:20] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:20,619 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:20] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:50:20,644 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:20] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:22,725 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:50:22,736 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:22] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:50:22,765 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:22] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:50:22,800 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:22] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:50:23,691 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:50:23,699 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:23] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:50:23,729 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:23] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:23,734 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:23] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 16:50:23,753 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:23] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:39,714 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:50:39,742 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:39] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:39,743 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:50:39,766 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:39] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:54,589 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:50:54,595 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:54] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:50:54,624 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:54] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:50:54,654 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:54] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:50:55,808 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:50:55,816 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:55] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:50:55,847 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:55] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:50:55,853 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:50:55,873 INFO: 127.0.0.1 - - [03/Dec/2023 16:50:55] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:51:11,127 INFO: 127.0.0.1 - - [03/Dec/2023 16:51:11] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2023-12-03 16:52:00,925 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:52:00,949 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:52:01,015 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:01] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 16:52:01,109 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:01] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 16:52:02,097 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:52:02,134 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:02] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:52:02,194 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:52:02,196 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:02] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:52:02,398 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:02] "[33mGET /scripts/animation_scripts.js HTTP/1.1[0m" 404 -
+2023-12-03 16:52:45,238 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:45] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:52:45,296 INFO: 127.0.0.1 - - [03/Dec/2023 16:52:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:53:15,469 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 16:53:15,477 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:15] "GET /login HTTP/1.1" 200 -
+2023-12-03 16:53:15,511 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:15] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 16:53:15,552 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:15] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 16:53:16,281 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 16:53:16,289 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:16] "GET /index HTTP/1.1" 200 -
+2023-12-03 16:53:16,324 INFO: 127.0.0.1 - - [03/Dec/2023 16:53:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:02:39,611 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:02:39,612 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:02:39,614 INFO:  * Restarting with stat
+2023-12-03 17:02:40,373 WARNING:  * Debugger is active!
+2023-12-03 17:02:40,382 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:03:24,117 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:03:24,118 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:03:24,121 INFO:  * Restarting with stat
+2023-12-03 17:03:26,494 WARNING:  * Debugger is active!
+2023-12-03 17:03:26,510 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:03:45,996 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:03:45,997 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:03:46,001 INFO:  * Restarting with stat
+2023-12-03 17:03:48,152 WARNING:  * Debugger is active!
+2023-12-03 17:03:48,166 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:04:23,358 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:04:23,359 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:04:23,362 INFO:  * Restarting with stat
+2023-12-03 17:04:26,512 WARNING:  * Debugger is active!
+2023-12-03 17:04:26,537 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:04:26,817 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:04:26,817 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:04:26,821 INFO:  * Restarting with stat
+2023-12-03 17:04:27,775 WARNING:  * Debugger is active!
+2023-12-03 17:04:27,784 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:04:31,954 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 17:04:32,008 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:32] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:04:32,141 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:32] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 17:04:32,149 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:32] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 17:04:33,262 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 17:04:48,386 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:48] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 17:04:48,405 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:48] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:04:48,445 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:48] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:04:48,491 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:48] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 17:04:49,411 INFO: 127.0.0.1 - - [03/Dec/2023 17:04:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 17:05:39,403 INFO: 127.0.0.1 - - [03/Dec/2023 17:05:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:06:00,650 INFO: 127.0.0.1 - - [03/Dec/2023 17:06:00] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:06:00,699 INFO: 127.0.0.1 - - [03/Dec/2023 17:06:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:06:17,771 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:06:17,875 INFO:  * Restarting with stat
+2023-12-03 17:06:18,171 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:06:18,301 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:06:19,126 INFO:  * Restarting with stat
+2023-12-03 17:06:21,611 WARNING:  * Debugger is active!
+2023-12-03 17:06:21,623 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:06:29,391 INFO:  * Restarting with stat
+2023-12-03 17:06:33,370 WARNING:  * Debugger is active!
+2023-12-03 17:06:33,384 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:07:05,636 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:07:05,692 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:07:09,347 INFO:  * Restarting with stat
+2023-12-03 17:07:10,406 INFO:  * Restarting with stat
+2023-12-03 17:14:51,219 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 17:14:51,219 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 17:14:51,221 INFO:  * Restarting with stat
+2023-12-03 17:14:52,248 WARNING:  * Debugger is active!
+2023-12-03 17:14:52,257 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:15:03,561 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:03] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 17:15:03,578 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:03] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:15:03,714 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:03] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 17:15:03,716 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:03] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 17:15:04,917 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 17:15:04,958 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:04] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:15:05,000 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:15:16,929 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:15:17,003 INFO:  * Restarting with stat
+2023-12-03 17:15:17,990 WARNING:  * Debugger is active!
+2023-12-03 17:15:17,997 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:15:27,198 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:27] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:15:27,358 INFO: 127.0.0.1 - - [03/Dec/2023 17:15:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:17:29,119 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 17:17:29,196 INFO:  * Restarting with stat
+2023-12-03 17:17:30,091 WARNING:  * Debugger is active!
+2023-12-03 17:17:30,098 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 17:18:26,635 INFO: 127.0.0.1 - - [03/Dec/2023 17:18:26] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:18:26,764 INFO: 127.0.0.1 - - [03/Dec/2023 17:18:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:21:34,158 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 17:21:34,171 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:34] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:21:34,206 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:34] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 17:21:34,247 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:34] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 17:21:36,107 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 17:21:36,117 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:36] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:21:36,160 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:21:43,079 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 17:21:43,086 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:43] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:21:43,128 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:43] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:21:43,165 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:43] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 17:21:46,040 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 17:21:46,049 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:46] "GET /index HTTP/1.1" 200 -
+2023-12-03 17:21:46,090 INFO: 127.0.0.1 - - [03/Dec/2023 17:21:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 17:48:37,169 INFO: 127.0.0.1 - - [03/Dec/2023 17:48:37] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 17:48:37,183 INFO: 127.0.0.1 - - [03/Dec/2023 17:48:37] "GET /login HTTP/1.1" 200 -
+2023-12-03 17:48:37,228 INFO: 127.0.0.1 - - [03/Dec/2023 17:48:37] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 17:48:37,236 INFO: 127.0.0.1 - - [03/Dec/2023 17:48:37] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:04:50,270 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:04:50,270 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:04:50,272 INFO:  * Restarting with stat
+2023-12-03 19:04:51,096 WARNING:  * Debugger is active!
+2023-12-03 19:04:51,105 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:05:02,982 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:02] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:05:03,057 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:03] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:05:03,176 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:03] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:05:03,179 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:03] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:05:03,196 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 19:05:04,711 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:05:04,992 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:04] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:05,058 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:05:46,548 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:46] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:46,572 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:05:52,045 INFO: Task status updated: Task ID 76, New Status: In Progress
+2023-12-03 19:05:52,046 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:52] "[32mGET /update/76/In%20Progress HTTP/1.1[0m" 302 -
+2023-12-03 19:05:52,052 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:52] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:52,088 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:52] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:05:54,069 INFO: Task status updated: Task ID 76, New Status: In Progress
+2023-12-03 19:05:54,069 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:54] "[32mGET /update/76/In%20Progress HTTP/1.1[0m" 302 -
+2023-12-03 19:05:54,079 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:54] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:54,107 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:54] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:05:54,143 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 19:05:55,993 INFO: Task status updated: Task ID 76, New Status: In Progress
+2023-12-03 19:05:55,993 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:55] "[32mGET /update/76/In%20Progress HTTP/1.1[0m" 302 -
+2023-12-03 19:05:55,999 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:55] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:56,028 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:05:57,004 INFO: Task status updated: Task ID 76, New Status: Completed
+2023-12-03 19:05:57,005 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:57] "[32mGET /update/76/Completed HTTP/1.1[0m" 302 -
+2023-12-03 19:05:57,014 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:57] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:05:57,052 INFO: 127.0.0.1 - - [03/Dec/2023 19:05:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:37,253 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:37] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:37,273 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:37] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:07:38,679 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:38] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:38,701 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:38] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:07:38,903 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:38] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:38,921 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:39,102 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:39,121 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:39,276 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:39,294 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:39,426 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:39,443 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:39,580 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:39,597 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:39,734 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:39,751 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:07:57,951 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:57] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:07:57,968 INFO: 127.0.0.1 - - [03/Dec/2023 19:07:57] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:09:41,868 INFO: 127.0.0.1 - - [03/Dec/2023 19:09:41] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:09:41,903 INFO: 127.0.0.1 - - [03/Dec/2023 19:09:41] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:12:29,087 INFO: 127.0.0.1 - - [03/Dec/2023 19:12:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:12:29,094 INFO: 127.0.0.1 - - [03/Dec/2023 19:12:29] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:12:29,119 INFO: 127.0.0.1 - - [03/Dec/2023 19:12:29] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:12:29,155 INFO: 127.0.0.1 - - [03/Dec/2023 19:12:29] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:14:22,694 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:22] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:14:22,719 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:22] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:14:22,747 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:22] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:14:23,807 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:14:23,815 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:23] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:14:23,850 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:23] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-03 19:14:25,896 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:14:25,902 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:25] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:14:25,933 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:25] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:14:25,963 INFO: 127.0.0.1 - - [03/Dec/2023 19:14:25] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:17:23,715 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:23] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-12-03 19:17:23,770 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 19:17:23,886 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-03 19:17:23,898 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 19:17:43,515 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:43] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-12-03 19:17:43,537 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:17:43,537 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:17:43,551 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 19:17:49,464 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:49] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:17:49,483 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:49] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:17:49,503 INFO: 127.0.0.1 - - [03/Dec/2023 19:17:49] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:18:12,125 INFO: 127.0.0.1 - - [03/Dec/2023 19:18:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-12-03 19:18:12,148 INFO: 127.0.0.1 - - [03/Dec/2023 19:18:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:18:12,149 INFO: 127.0.0.1 - - [03/Dec/2023 19:18:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:18:12,163 INFO: 127.0.0.1 - - [03/Dec/2023 19:18:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 19:19:16,281 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:19:16,374 INFO:  * Restarting with stat
+2023-12-03 19:19:17,276 WARNING:  * Debugger is active!
+2023-12-03 19:19:17,284 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:19:28,581 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:19:28,653 INFO:  * Restarting with stat
+2023-12-03 19:20:38,448 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:20:38,448 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:20:38,450 INFO:  * Restarting with stat
+2023-12-03 19:20:39,490 WARNING:  * Debugger is active!
+2023-12-03 19:20:39,500 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:20:41,618 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:41] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:20:41,717 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:41] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:20:41,719 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:41] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:20:43,304 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:20:43,329 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:43] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:20:43,385 INFO: 127.0.0.1 - - [03/Dec/2023 19:20:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:21:29,843 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:21:29,854 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:29] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:21:29,885 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:29] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:21:29,919 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:29] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:21:31,055 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:21:31,069 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:31] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:21:31,111 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:21:33,818 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:33] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:21:33,845 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:21:34,882 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:21:34,888 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:34] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:21:34,918 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:34] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:21:34,960 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:34] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:21:35,710 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:35] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:21:38,021 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:21:38,032 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:38] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:21:38,066 INFO: 127.0.0.1 - - [03/Dec/2023 19:21:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:05,337 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:22:05,346 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:05] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:22:05,389 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:05] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:05,453 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:05] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:22:06,429 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:22:06,439 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:06] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:06,476 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:36,256 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:22:36,347 INFO:  * Restarting with stat
+2023-12-03 19:22:37,283 WARNING:  * Debugger is active!
+2023-12-03 19:22:37,291 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:22:40,380 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:40] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:40,469 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:41,373 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:22:41,382 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:41] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:22:41,408 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:41] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:41,442 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:41] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:22:42,428 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:22:42,436 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:42] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:42,465 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:53,797 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:22:53,913 INFO:  * Restarting with stat
+2023-12-03 19:22:55,288 WARNING:  * Debugger is active!
+2023-12-03 19:22:55,296 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:22:55,612 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:22:55,630 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:55] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:22:55,746 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:55] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:55,748 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:55] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:22:57,001 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:22:57,015 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:57] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:57,051 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:58,513 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:58] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:58,539 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:22:59,282 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:59] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:22:59,304 INFO: 127.0.0.1 - - [03/Dec/2023 19:22:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:00,850 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:23:00,859 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:23:00,887 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:00] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:00,923 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:00] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:23:01,855 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:23:01,863 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:01] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:23:01,895 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:16,810 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:23:16,816 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:16] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:23:16,842 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:16] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:16,946 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:23:17,709 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:23:17,737 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:17] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:23:17,766 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:18,927 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:18] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:23:18,951 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:19,707 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:23:19,712 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:19] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:23:19,742 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:19] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:23:19,789 INFO: 127.0.0.1 - - [03/Dec/2023 19:23:19] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:24:14,928 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:24:14,936 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:14] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:24:14,977 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:24:43,386 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:43] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:24:43,411 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:24:44,197 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:24:44,207 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:44] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:24:44,235 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:44] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:24:44,271 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:44] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:24:45,161 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:24:45,168 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:45] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:24:45,200 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:24:55,765 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:24:55,774 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:55] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:24:55,802 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:55] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:24:55,841 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:55] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:24:56,729 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:24:56,741 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:56] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:24:56,770 INFO: 127.0.0.1 - - [03/Dec/2023 19:24:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:04,976 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:25:04,987 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:04] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:05,028 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:05] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:05,066 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:05] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:06,179 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:25:06,234 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:06] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:25:06,327 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:13,912 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:25:13,921 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:13] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:13,953 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:13] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:13,978 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:13] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:45,157 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:45] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:45,174 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:45] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:45,197 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:45] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:46,118 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:46,138 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:46,161 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:46,320 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:46,346 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:46,362 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:46] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:51,995 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:51] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:25:52,011 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:52] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:25:52,042 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:52] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:25:53,045 INFO: 127.0.0.1 - - [03/Dec/2023 19:25:53] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:28:05,465 INFO: 127.0.0.1 - - [03/Dec/2023 19:28:05] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:28:05,493 INFO: 127.0.0.1 - - [03/Dec/2023 19:28:05] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:30:32,889 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:32] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:30:32,977 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:32] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:30:50,351 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:50] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:30:56,736 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:56] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:30:56,763 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:56] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:30:57,720 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:57] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:30:57,760 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:57] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:30:57,829 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:30:58,868 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:58] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:30:58,910 INFO: 127.0.0.1 - - [03/Dec/2023 19:30:58] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:00,027 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:00,097 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:00] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:00,165 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:00] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:01,700 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:01] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:31:01,735 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:01] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:02,701 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:02] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:02,741 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:02] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:02,816 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:02] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:32,833 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:32] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:32,867 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:32] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:32,904 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:32] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:33,996 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:31:34,006 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:34] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:31:34,085 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:35,632 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:31:35,645 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:35] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:35,685 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:35] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:35,724 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:37,100 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:31:37,116 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:37] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:31:37,167 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:38,180 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:31:38,194 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:38] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:38,241 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:38] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:38,284 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:38] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:42,968 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:42] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:31:43,006 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:43] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:43,044 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:43] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:31:44,379 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:44] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:31:44,412 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:44] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:31:48,545 INFO: 127.0.0.1 - - [03/Dec/2023 19:31:48] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+2023-12-03 19:32:04,585 INFO: 127.0.0.1 - - [03/Dec/2023 19:32:04] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:32:06,342 INFO: 127.0.0.1 - - [03/Dec/2023 19:32:06] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+2023-12-03 19:32:07,891 INFO: 127.0.0.1 - - [03/Dec/2023 19:32:07] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:34:45,775 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:34:45,967 INFO:  * Restarting with stat
+2023-12-03 19:34:47,284 WARNING:  * Debugger is active!
+2023-12-03 19:34:47,292 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:34:48,369 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:34:48,484 INFO:  * Restarting with stat
+2023-12-03 19:34:49,362 WARNING:  * Debugger is active!
+2023-12-03 19:34:49,370 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:36:22,793 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:36:22,892 INFO:  * Restarting with stat
+2023-12-03 19:36:23,849 WARNING:  * Debugger is active!
+2023-12-03 19:36:23,859 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:38:20,706 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:38:20,809 INFO:  * Restarting with stat
+2023-12-03 19:42:24,837 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:42:24,837 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:42:24,839 INFO:  * Restarting with stat
+2023-12-03 19:42:25,712 WARNING:  * Debugger is active!
+2023-12-03 19:42:25,720 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:42:30,938 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:42:31,032 INFO:  * Restarting with stat
+2023-12-03 19:42:32,065 WARNING:  * Debugger is active!
+2023-12-03 19:42:32,074 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:42:39,445 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:42:39,445 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:42:39,447 INFO:  * Restarting with stat
+2023-12-03 19:42:40,338 WARNING:  * Debugger is active!
+2023-12-03 19:42:40,347 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:42:46,337 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:46] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:42:46,450 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:46] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:42:48,006 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:48] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:42:48,051 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:48] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:42:48,100 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:48] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:42:49,228 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:49] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:42:49,267 INFO: 127.0.0.1 - - [03/Dec/2023 19:42:49] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:44:06,572 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:44:06,656 INFO:  * Restarting with stat
+2023-12-03 19:44:08,476 WARNING:  * Debugger is active!
+2023-12-03 19:44:08,485 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:44:14,757 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:44:14,888 INFO:  * Restarting with stat
+2023-12-03 19:48:27,082 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:48:27,082 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:48:27,083 INFO:  * Restarting with stat
+2023-12-03 19:48:27,892 WARNING:  * Debugger is active!
+2023-12-03 19:48:27,899 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:49:09,210 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:09] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:49:09,238 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:09] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:49:09,431 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:09] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:49:09,433 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:09] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:49:10,681 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 19:49:10,696 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:10] "GET /index HTTP/1.1" 200 -
+2023-12-03 19:49:10,769 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:49:12,398 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 19:49:12,411 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:12] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:49:12,446 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:12] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:49:12,470 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:12] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:49:13,715 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:13] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:49:13,747 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:13] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:49:15,268 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:15] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+2023-12-03 19:49:24,854 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:24] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:49:26,247 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:26] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+2023-12-03 19:49:43,636 INFO: 127.0.0.1 - - [03/Dec/2023 19:49:43] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:50:00,465 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:00] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:50:00,477 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:50:00,522 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:00] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:50:00,527 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:00] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:50:02,100 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:02] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:50:02,138 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:02] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:50:07,224 INFO: 127.0.0.1 - - [03/Dec/2023 19:50:07] "[31m[1mPOST /register HTTP/1.1[0m" 405 -
+2023-12-03 19:51:47,933 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:51:48,018 INFO:  * Restarting with stat
+2023-12-03 19:51:49,015 WARNING:  * Debugger is active!
+2023-12-03 19:51:49,022 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:51:50,092 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:51:50,233 INFO:  * Restarting with stat
+2023-12-03 19:51:51,165 WARNING:  * Debugger is active!
+2023-12-03 19:51:51,174 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:51:56,419 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:51:56,503 INFO:  * Restarting with stat
+2023-12-03 19:51:57,414 WARNING:  * Debugger is active!
+2023-12-03 19:51:57,422 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:52:17,264 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:17] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:52:17,278 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:17] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:52:17,416 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:17] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:52:17,419 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:17] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:52:18,483 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:18] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:52:18,534 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:18] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:52:40,157 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:40] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:52:40,238 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:40] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 19:52:40,244 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:40] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-03 19:52:40,259 INFO: 127.0.0.1 - - [03/Dec/2023 19:52:40] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 19:52:53,952 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:52:54,076 INFO:  * Restarting with stat
+2023-12-03 19:55:20,896 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:55:20,896 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:55:20,898 INFO:  * Restarting with stat
+2023-12-03 19:55:21,690 WARNING:  * Debugger is active!
+2023-12-03 19:55:21,700 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:55:33,649 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:33] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:55:33,670 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:33] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:55:33,816 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:33] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:55:33,818 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:33] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:55:34,829 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:34] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:55:34,864 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:34] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:55:55,689 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:55] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:55:55,727 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:55:55,728 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:55:55,749 INFO: 127.0.0.1 - - [03/Dec/2023 19:55:55] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 19:56:51,046 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:56:51,218 INFO:  * Restarting with stat
+2023-12-03 19:56:52,316 WARNING:  * Debugger is active!
+2023-12-03 19:56:52,325 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:57:00,856 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:57:00,856 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:57:00,857 INFO:  * Restarting with stat
+2023-12-03 19:57:01,656 WARNING:  * Debugger is active!
+2023-12-03 19:57:01,667 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:57:05,116 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:05] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:57:05,140 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:05] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:57:05,304 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:05] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:57:05,307 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:05] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:57:06,219 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:06] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:57:06,257 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:06] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:57:28,774 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:28] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:57:28,809 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:28] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:57:28,810 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:28] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 19:57:28,848 INFO: 127.0.0.1 - - [03/Dec/2023 19:57:28] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 19:57:41,792 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:57:41,911 INFO:  * Restarting with stat
+2023-12-03 19:57:42,827 WARNING:  * Debugger is active!
+2023-12-03 19:57:42,835 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:58:01,328 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:58:01,442 INFO:  * Restarting with stat
+2023-12-03 19:58:02,364 WARNING:  * Debugger is active!
+2023-12-03 19:58:02,371 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:58:16,516 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:58:16,516 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:58:16,518 INFO:  * Restarting with stat
+2023-12-03 19:58:17,331 WARNING:  * Debugger is active!
+2023-12-03 19:58:17,339 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:58:20,540 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:20] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:58:20,684 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:20] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 19:58:22,410 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:22] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:58:22,445 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:22] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:58:22,448 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:22] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 19:58:22,495 INFO: 127.0.0.1 - - [03/Dec/2023 19:58:22] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 19:58:51,237 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:58:51,325 INFO:  * Restarting with stat
+2023-12-03 19:58:52,168 WARNING:  * Debugger is active!
+2023-12-03 19:58:52,175 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:58:53,249 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:58:53,356 INFO:  * Restarting with stat
+2023-12-03 19:58:56,119 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:58:56,119 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:58:56,121 INFO:  * Restarting with stat
+2023-12-03 19:58:56,965 WARNING:  * Debugger is active!
+2023-12-03 19:58:56,976 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:59:02,060 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 19:59:02,061 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 19:59:02,062 INFO:  * Restarting with stat
+2023-12-03 19:59:02,939 WARNING:  * Debugger is active!
+2023-12-03 19:59:02,950 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:59:08,472 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:08] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:59:08,492 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:08] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:59:08,646 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:08] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 19:59:08,664 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:08] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 19:59:09,647 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:09] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:59:09,681 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:09] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:59:14,942 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:14] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:59:15,020 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:59:15,022 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:59:15,050 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:15] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 19:59:25,596 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:59:25,698 INFO:  * Restarting with stat
+2023-12-03 19:59:26,791 WARNING:  * Debugger is active!
+2023-12-03 19:59:26,799 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:59:29,929 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 19:59:30,026 INFO:  * Restarting with stat
+2023-12-03 19:59:30,991 WARNING:  * Debugger is active!
+2023-12-03 19:59:31,001 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 19:59:35,249 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:35] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 19:59:35,269 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:35] "GET /login HTTP/1.1" 200 -
+2023-12-03 19:59:35,415 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:35] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:59:35,417 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 19:59:36,246 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:36] "GET /register HTTP/1.1" 200 -
+2023-12-03 19:59:36,284 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:36] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:59:42,336 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 19:59:42,411 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 19:59:42,412 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 19:59:42,464 INFO: 127.0.0.1 - - [03/Dec/2023 19:59:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 20:01:04,317 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:01:04,430 INFO:  * Restarting with stat
+2023-12-03 20:05:22,479 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:05:22,480 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:05:22,481 INFO:  * Restarting with stat
+2023-12-03 20:05:23,216 WARNING:  * Debugger is active!
+2023-12-03 20:05:23,223 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:05:32,236 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:05:32,236 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:05:32,238 INFO:  * Restarting with stat
+2023-12-03 20:05:33,021 WARNING:  * Debugger is active!
+2023-12-03 20:05:33,034 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:05:41,447 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:05:41,447 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:05:41,449 INFO:  * Restarting with stat
+2023-12-03 20:05:42,181 WARNING:  * Debugger is active!
+2023-12-03 20:05:42,188 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:05:47,328 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:47] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:05:47,354 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:47] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:05:47,485 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:47] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:05:47,490 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:47] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:05:49,464 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 20:05:49,477 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:49] "GET /index HTTP/1.1" 200 -
+2023-12-03 20:05:49,517 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:05:50,797 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 20:05:50,806 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:50] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:05:50,838 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:50] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:05:50,881 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:50] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 20:05:51,669 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:51] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:05:51,711 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:51] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:05:58,351 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:58] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:05:58,425 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:58] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 20:05:58,425 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:58] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:05:58,454 INFO: 127.0.0.1 - - [03/Dec/2023 20:05:58] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 20:06:34,519 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:06:34,654 INFO:  * Restarting with stat
+2023-12-03 20:06:55,997 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:06:55,997 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:06:55,998 INFO:  * Restarting with stat
+2023-12-03 20:06:56,715 WARNING:  * Debugger is active!
+2023-12-03 20:06:56,722 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:07:00,453 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:00] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:07:00,468 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:07:00,586 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:00] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:07:00,588 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:00] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:07:02,390 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:02] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:07:02,420 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:02] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:07:10,850 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:10] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:07:10,924 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:10] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:07:10,925 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:10] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 20:07:10,949 INFO: 127.0.0.1 - - [03/Dec/2023 20:07:10] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 20:08:50,326 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:08:50,431 INFO:  * Restarting with stat
+2023-12-03 20:08:51,297 WARNING:  * Debugger is active!
+2023-12-03 20:08:51,304 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:08:54,445 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:08:54,622 INFO:  * Restarting with stat
+2023-12-03 20:10:19,111 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:10:19,111 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:10:19,113 INFO:  * Restarting with stat
+2023-12-03 20:10:19,812 WARNING:  * Debugger is active!
+2023-12-03 20:10:19,819 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:10:23,914 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:23] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:10:23,929 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:23] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:10:24,057 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:24] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:10:24,063 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:24] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:10:24,998 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:24] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:10:25,046 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:25] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:10:27,649 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:27] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:10:27,708 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:27] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:10:27,709 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:27] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 20:10:27,756 INFO: 127.0.0.1 - - [03/Dec/2023 20:10:27] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 20:12:24,840 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:12:24,919 INFO:  * Restarting with stat
+2023-12-03 20:16:09,946 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:16:09,946 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:16:09,948 INFO:  * Restarting with stat
+2023-12-03 20:16:10,828 WARNING:  * Debugger is active!
+2023-12-03 20:16:10,835 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:16:14,408 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:14] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:16:14,424 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:14] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:16:14,556 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:14] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:16:14,560 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:14] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:16:15,716 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:15] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:16:15,751 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:15] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:16:18,899 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:18] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:16:18,973 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:18] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:16:18,976 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:18] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 20:16:19,005 INFO: 127.0.0.1 - - [03/Dec/2023 20:16:19] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 20:17:10,421 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:17:10,532 INFO:  * Restarting with stat
+2023-12-03 20:17:11,709 WARNING:  * Debugger is active!
+2023-12-03 20:17:11,716 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:17:23,080 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:17:23,254 INFO:  * Restarting with stat
+2023-12-03 20:17:24,083 WARNING:  * Debugger is active!
+2023-12-03 20:17:24,092 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:17:31,701 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:17:31,701 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:17:31,702 INFO:  * Restarting with stat
+2023-12-03 20:17:32,494 WARNING:  * Debugger is active!
+2023-12-03 20:17:32,502 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:17:35,140 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:35] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:17:35,156 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:35] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:17:35,283 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:35] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:17:35,286 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:35] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:17:36,252 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:36] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:17:36,287 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:36] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:17:36,367 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 20:17:38,778 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:38] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:17:38,872 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:38] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:17:38,874 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:38] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:17:38,901 INFO: 127.0.0.1 - - [03/Dec/2023 20:17:38] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-03 20:18:31,061 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:18:31,149 INFO:  * Restarting with stat
+2023-12-03 20:18:32,033 WARNING:  * Debugger is active!
+2023-12-03 20:18:32,042 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:18:33,125 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:18:33,290 INFO:  * Restarting with stat
+2023-12-03 20:18:35,020 WARNING:  * Debugger is active!
+2023-12-03 20:18:35,033 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:18:36,171 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:18:36,265 INFO:  * Restarting with stat
+2023-12-03 20:18:37,102 WARNING:  * Debugger is active!
+2023-12-03 20:18:37,110 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:18:39,276 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:18:39,462 INFO:  * Restarting with stat
+2023-12-03 20:18:41,049 WARNING:  * Debugger is active!
+2023-12-03 20:18:41,058 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:18:48,386 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:18:48,525 INFO:  * Restarting with stat
+2023-12-03 20:18:49,689 WARNING:  * Debugger is active!
+2023-12-03 20:18:49,702 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:19:17,440 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:19:17,549 INFO:  * Restarting with stat
+2023-12-03 20:19:18,352 WARNING:  * Debugger is active!
+2023-12-03 20:19:18,359 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:19:37,953 INFO:  * Detected change in 'd:\\Python\\QuanLyCongViec\\app.py', reloading
+2023-12-03 20:19:38,055 INFO:  * Restarting with stat
+2023-12-03 20:19:38,827 WARNING:  * Debugger is active!
+2023-12-03 20:19:38,835 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:20:03,535 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:20:03,535 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:20:03,538 INFO:  * Restarting with stat
+2023-12-03 20:20:04,384 WARNING:  * Debugger is active!
+2023-12-03 20:20:04,392 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:20:07,621 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:07] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:20:07,638 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:07] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:20:07,772 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:07] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:20:07,774 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:07] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:20:08,780 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 20:20:08,799 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:08] "GET /index HTTP/1.1" 200 -
+2023-12-03 20:20:08,864 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:20:10,534 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 20:20:10,541 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:10] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:20:10,578 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:10] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:20:10,656 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:10] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:20:11,365 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:11] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:20:11,402 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:11] "GET /static/register_style.css HTTP/1.1" 200 -
+2023-12-03 20:20:14,559 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:14] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2023-12-03 20:20:14,648 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:14] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-03 20:20:14,649 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:14] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-03 20:20:14,684 INFO: 127.0.0.1 - - [03/Dec/2023 20:20:14] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-03 20:27:23,644 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-03 20:27:23,645 INFO: [33mPress CTRL+C to quit[0m
+2023-12-03 20:27:23,646 INFO:  * Restarting with stat
+2023-12-03 20:27:24,387 WARNING:  * Debugger is active!
+2023-12-03 20:27:24,395 INFO:  * Debugger PIN: 119-588-068
+2023-12-03 20:27:27,123 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:27] "[32mGET / HTTP/1.1[0m" 302 -
+2023-12-03 20:27:27,145 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:27] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:27:27,272 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:27] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:27:27,274 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:27] "GET /static/logo.png HTTP/1.1" 200 -
+2023-12-03 20:27:27,309 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-03 20:27:28,333 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:28] "GET /register HTTP/1.1" 200 -
+2023-12-03 20:27:28,363 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:28] "[36mGET /static/register_style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:27:35,783 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:35] "[32mPOST /register HTTP/1.1[0m" 302 -
+2023-12-03 20:27:35,796 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:35] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:27:35,855 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:35] "[36mGET /static/login_style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:27:35,937 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:35] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2023-12-03 20:27:49,314 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-12-03 20:27:49,337 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:49] "GET /index HTTP/1.1" 200 -
+2023-12-03 20:27:49,417 INFO: 127.0.0.1 - - [03/Dec/2023 20:27:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-03 20:28:00,299 INFO: 127.0.0.1 - - [03/Dec/2023 20:28:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-12-03 20:28:00,311 INFO: 127.0.0.1 - - [03/Dec/2023 20:28:00] "GET /login HTTP/1.1" 200 -
+2023-12-03 20:28:00,351 INFO: 127.0.0.1 - - [03/Dec/2023 20:28:00] "GET /static/login_style.css HTTP/1.1" 200 -
+2023-12-03 20:28:00,400 INFO: 127.0.0.1 - - [03/Dec/2023 20:28:00] "GET /static/logo.png HTTP/1.1" 200 -

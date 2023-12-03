@@ -19,6 +19,8 @@ from connect import create_connection  # Import hàm tạo kết nối
 
 from flask_sqlalchemy import SQLAlchemy
 
+from urllib.parse import quote_plus
+
 from sqlalchemy import UniqueConstraint
 
 from datetime import datetime, timezone
@@ -32,6 +34,20 @@ logging.basicConfig(filename='logs/app.log', level=logging.DEBUG, format='%(asct
 # db = SQLAlchemy()
 
 app = Flask(__name__)
+
+server = '.\\SQLEXPRESS04'
+database = 'quanlycongviec'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc:///?odbc_connect=' + \
+    # quote_plus(
+    #     'DRIVER={SQL Server Native Client 11.0};'
+    #     'SERVER=.\\SQLEXPRESS04;'
+    #     'DATABASE=quanlycongviec;'
+    #     'Trusted_Connection=yes;'
+    # )
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://.\\SQLEXPRESS04/quanlycongviec?driver=SQL+Server'
+
+#app.config['SQLALCHEMY_DATABASE_URI'] = f'mssql+pyodbc://{quote_plus(server)}/{database}?driver=SQL+ServerTrusted_Connection=yes'
+db = SQLAlchemy(app)
 
 # class Task(db.Model):
 #     id = db.Column(db.Integer, primary_key=True)
@@ -146,7 +162,23 @@ def authenticate_user(username, password):
         return True
     else:
         return False
-    
+# Hàm thêm users
+def add_user(username, password):
+    existing_user = Users.query.filter_by(username=username).first()
+    if existing_user:
+        return False  # Tên người dùng đã tồn tại
+
+    new_user = Users(username=username, password=password)
+    db.session.add(new_user)
+    db.session.commit()
+
+    return True  # Thêm người dùng thành công
+#Sử dụng từ khoá Users tương ứng với bảng Users trong db
+# Định nghĩa class Users
+class Users(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(20), unique=True, nullable=False)
+    password = db.Column(db.String(60), nullable=False)
 #Route mặc định khi start
 @app.route('/')
 def home():
@@ -178,6 +210,8 @@ def login():
             # Lưu thông tin đăng nhập vào session
             session['username'] = username
             session['last_login_time'] = datetime.now()
+            # Hiển thị thông báo đăng nhập thành công
+            flash('Đăng nhập thành công!', 'success')
 
             return redirect(url_for('index'))
         else:
@@ -188,13 +222,51 @@ def login():
 # def success():
 #     tasks = get_tasks()
 #     return render_template('index.html', tasks=tasks)
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+   if request.method == 'POST':
+    # Lấy thông tin từ form đăng ký
+    username = request.form['username']
+    password = request.form['password']
+    # Kiểm tra xem tên người dùng đã tồn tại chưa
+    #existing_user = User.query.filter_by(username=username).first()
+    
+    #if existing_user:
+        #return render_template('register.html', error='Tên người dùng đã tồn tại.')
+    # Mã hóa mật khẩu trước khi lưu vào CSDL
+    #hashed_password = generate_password_hash(password, method='sha256')
 
+    # Tạo một đối tượng User và lưu vào CSDL
+    #new_user = User(username=username, password=password)
+
+    # Sử dụng ngữ cảnh ứng dụng
+    # with app.app_context():
+    #     db.create_all()
+    #     db.session.add(new_user)
+    #     db.session.commit()
+    # Thực hiện xử lý đăng ký (ví dụ: lưu thông tin vào CSDL)
+    # Trong thực tế, bạn cần thêm các bước kiểm tra, mã hóa mật khẩu, v.v.
+
+    # Chuyển hướng đến trang đăng nhập sau khi đăng ký thành công
+    if add_user(username, password):
+        return redirect(url_for('login'))
+    else:
+        return render_template('register.html', error='Tên người dùng đã tồn tại. Vui lòng chọn tên khác.')
+    #return redirect(url_for('login'))
+
+    # Nếu là GET request, hiển thị form đăng ký
+   return render_template('register.html',error='')
 #Route để hiển thị danh sách công việc
 @app.route('/index')
 def index():
-    username = session['username']
+    if 'username' in session:
+        username = session['username']
+        # có username = admin
+        #print(f"Username: {username}")       
+    # Lấy giá trị username từ session
+    username = session.get('username')
     tasks = get_tasks()
-    return render_template('index.html', tasks=tasks)
+    return render_template('index.html', tasks=tasks,username=username)
 # Route logout
 @app.route('/logout')
 def logout():
