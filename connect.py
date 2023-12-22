@@ -3,7 +3,7 @@ import urllib  # Import the urllib module
 
 # Thay đổi các thông tin kết nối dựa trên cấu hình của bạn
 def create_connection():
-    server = '.\SQLEXPRESS04'
+    server = r'DESKTOP-CSG7S4C\SQLEXPRESS'
     database = 'quanlycongviec'
     username = ''
     password = ''

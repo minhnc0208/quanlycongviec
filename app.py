@@ -35,7 +35,7 @@ logging.basicConfig(filename='logs/app.log', level=logging.DEBUG, format='%(asct
 
 app = Flask(__name__)
 
-server = '.\\SQLEXPRESS04'
+server = 'DESKTOP-CSG7S4C\SQLEXPRESS'
 database = 'quanlycongviec'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc:///?odbc_connect=' + \
     # quote_plus(
@@ -44,7 +44,7 @@ database = 'quanlycongviec'
     #     'DATABASE=quanlycongviec;'
     #     'Trusted_Connection=yes;'
     # )
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://.\\SQLEXPRESS04/quanlycongviec?driver=SQL+Server'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://.DESKTOP-CSG7S4C\SQLEXPRESS/quanlycongviec?driver=SQL+Server'
 
 #app.config['SQLALCHEMY_DATABASE_URI'] = f'mssql+pyodbc://{quote_plus(server)}/{database}?driver=SQL+ServerTrusted_Connection=yes'
 db = SQLAlchemy(app)
@@ -102,7 +102,7 @@ def calculate_time_difference():
     return time_difference
 
 # Gọi hàm để sử dụng biến last_login_time
-result = calculate_time_difference()
+result = calculate_time_difference()    
 
 last_login_time_aware = last_login_time  # Thời gian aware, có thông tin về múi giờ
 
@@ -111,18 +111,29 @@ current_time_aware = current_time_naive.replace(tzinfo=timezone.utc)
 time_difference = current_time_aware - last_login_time_aware
 
 # Hàm để lấy danh sách công việc
-def get_tasks():
-    cursor.execute('SELECT * FROM tasks')
+def get_tasks(userid):
+    #user admin
+    if userid == 1:
+        cursor.execute('SELECT ROW_NUMBER() OVER(ORDER BY t.ID) AS STT, t.*, u.username FROM tasks t LEFT JOIN users u ON u.id = t.userid')
+    else:
+        cursor.execute('SELECT ROW_NUMBER() OVER(ORDER BY t.ID) AS STT, t.*, u.username FROM tasks t LEFT JOIN users u ON u.id = t.userid where u.id = '+ str(userid))
+    return cursor.fetchall()
+# Hàm để lấy User
+def get_users(userid):
+     #user admin
+    if userid == 1:
+        cursor.execute('SELECT * FROM Users')
+    else:
+        cursor.execute('SELECT * FROM Users where id = '+ str(userid))
     return cursor.fetchall()
 
-
 # Hàm để thêm công việc mới
-def add_task(name, description, status='Pending'):
+def add_task(name, description, id,status='Pending'):
     try:
         cursor.execute('''
-            INSERT INTO tasks (name, description, status)
-            VALUES (?, ?, ?)
-        ''', (name, description, status))
+            INSERT INTO tasks (name, description, status, userid)
+            VALUES (?, ?, ?, ?)
+        ''', (name, description, status, id))
         conn.commit()
         logging.info(f"Task added: {name}")
     except Exception as e:
@@ -209,6 +220,7 @@ def login():
         if result:
             # Lưu thông tin đăng nhập vào session
             session['username'] = username
+            session['id'] = result.id
             session['last_login_time'] = datetime.now()
             # Hiển thị thông báo đăng nhập thành công
             flash('Đăng nhập thành công!', 'success')
@@ -261,12 +273,15 @@ def register():
 def index():
     if 'username' in session:
         username = session['username']
+        username = session['id']
         # có username = admin
         #print(f"Username: {username}")       
     # Lấy giá trị username từ session
     username = session.get('username')
-    tasks = get_tasks()
-    return render_template('index.html', tasks=tasks,username=username)
+    userid = session.get('id')
+    tasks = get_tasks(userid)
+    users = get_users(userid)
+    return render_template('index.html', tasks=tasks,username=username, users = users)
 # Route logout
 @app.route('/logout')
 def logout():
@@ -276,11 +291,12 @@ def logout():
     return redirect(url_for('login'))
 # Route để thêm công việc mới
 
-@app.route('/add', methods=['POST'])
+@app.route('/add', methods=['GET', 'POST'])
 def add():
     name = request.form['name']
     description = request.form['description'] 
-    add_task(name, description)
+    id = request.form.get('users')
+    add_task(name, description, id)
     return redirect(url_for('index'))
 # Route để cập nhật trạng thái công việc
 @app.route('/update/<int:task_id>/<new_status>')

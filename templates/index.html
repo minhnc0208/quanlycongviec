@@ -38,6 +38,14 @@
                 <label for="description" class="form-label">Description:</label>
                 <textarea name="description" class="form-control"></textarea>
             </div>
+            <div class="mb-4">
+                <label for="users">Choose User:</label>
+                <select name="users" id="users" class="selectpicker form-control">
+                    {% for user in users %}
+                    <option value="{{user.id}}">{{user.username}}</option>
+                    {% endfor %}                 
+                </select>
+            </div>
             <button type="submit" class="btn btn-primary">Add Task</button>
         </form>
         <br>
@@ -46,10 +54,11 @@
             <table id="task-table" class="table table-bordered table-striped mx-auto">
                 <thead>
                     <tr>
-                        <th scope="col">ID</th>
+                        <th scope="col">STT</th>
                         <th scope="col">Name</th>
                         <th scope="col">Description</th>
                         <th scope="col">Status</th>
+                        <th scope="col">Username</th>
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
@@ -58,10 +67,11 @@
                     <tr>
 
                         <!-- Display calculated id -->
-                        <th scope="row">{{ task.id }}</th>
+                        <th scope="row">{{ task.STT }}</th>
                         <td>{{ task.name }}</td>
                         <td>{{ task.description }}</td>
                         <td>{{ task.status }}</td>
+                        <td>{{ task.username }}</td>
                         <td>
                             <a href="{{ url_for('update', task_id=task.id, new_status='In Progress') }}"
                                 class="btn btn-primary">Start</a>
