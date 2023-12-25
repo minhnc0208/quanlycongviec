@@ -4,22 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Task</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/edit_task.css">
+    <link rel="stylesheet" href="D:\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\js">
+    <link rel="stylesheet" href="D:\bootstrap-4.5.3-dist\bootstrap-4.5.3-dist\css">
 </head>
 <body>
-    <h1>Edit Task</h1>
-    <form action="" method="post">
-        <label for="name">Task Name:</label>
-        <input type="text" name="name" value="{{ task.name }}" required>
-        <label for="description">Description:</label>
-        <textarea name="description">{{ task.description }}</textarea>
-        <label for="status">Status:</label>
-        <select name="status">
-            <option value="Pending" {% if task.status =='Pending'%}selected{%endif%}>Pending</option>
-            <option value="In Progress" {% if task.status =='InProgress'%}selected{%endif%}>In Progress</option>
-            <option value="Completed" {% if task.status =='Completed'%}selected{%endif%}>Completed</option>
-        </select>
-        <button type="submit">Save Changes</button>
-    </form>
-    <a href="{{ url_for('index') }}">Cancel</a>
+    <div class="container">
+        <h1>Edit Task</h1>
+        <form class="content-edit" action="" method="post">
+            <label for="name">Task Name</label>
+            <input class="input name" type="text" name="name" placeholder="Input task name" value="" required>
+            <label for="description">Description</label>
+            <textarea class="input" name="description" placeholder="Input task description"></textarea>
+            <label for="status">Status:</label>
+            <div class="">
+                <select class="input custom-select" name="status">
+                    <option value="Pending" {% if task.status =='Pending'%}selected{%endif%}>Pending</option>
+                    <option value="In Progress" {% if task.status =='InProgress'%}selected{%endif%}>In Progress</option>
+                    <option value="Completed" {% if task.status =='Completed'%}selected{%endif%}>Completed</option>
+                </select>
+            </div>
+            
+        </form>
+        <div class="cta-edit">
+            <div class="cta-cancel">
+                <button><a href="{{ url_for('index') }}">Cancel</a></button>
+                
+            </div>
+            <div class="cta-save">
+                <button type="submit">Save Changes</button>
+            </div>
+           
+        </div>
+    </div>
+    
+    
 </body>
 </html>

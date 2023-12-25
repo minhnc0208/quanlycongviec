@@ -1,0 +1,45 @@
+.container {
+    padding-top: 50px;
+}
+.content-edit {
+    display: grid;
+}
+.input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+.custom-select {
+    height: 50px;
+}
+.cta-edit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.cta-save button {
+    background-color: #407bfe;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+.cta-cancel button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 8px 60px;
+}
+.cta-cancel button:hover {
+    background-color: #80808040;
+}
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}

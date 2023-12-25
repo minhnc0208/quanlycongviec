@@ -1,0 +1,29 @@
+.content-404{
+    display: flex;
+    justify-content: center;
+}
+.description-404 {
+    margin: auto 0;
+}
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-size: 34px;
+}
+p {
+    font-size: 16px;
+    color: gray;
+}
+button {
+    font-size:  16px;
+    color: white;
+    background-color: #407bfe;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
