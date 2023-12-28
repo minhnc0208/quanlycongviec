@@ -35,7 +35,7 @@ logging.basicConfig(filename='logs/app.log', level=logging.DEBUG, format='%(asct
 
 app = Flask(__name__)
 
-server = 'DESKTOP-CSG7S4C\SQLEXPRESS'
+server = 'DESKTOP-AKNUOHS\SQLEXPRESS'
 database = 'quanlycongviec'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc:///?odbc_connect=' + \
     # quote_plus(
@@ -44,7 +44,7 @@ database = 'quanlycongviec'
     #     'DATABASE=quanlycongviec;'
     #     'Trusted_Connection=yes;'
     # )
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://.DESKTOP-CSG7S4C\SQLEXPRESS/quanlycongviec?driver=SQL+Server'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://.DESKTOP-AKNUOHS\SQLEXPRESS/quanlycongviec?driver=SQL+Server'
 
 #app.config['SQLALCHEMY_DATABASE_URI'] = f'mssql+pyodbc://{quote_plus(server)}/{database}?driver=SQL+ServerTrusted_Connection=yes'
 db = SQLAlchemy(app)
@@ -126,19 +126,29 @@ def get_users(userid):
     else:
         cursor.execute('SELECT * FROM Users where id = '+ str(userid))
     return cursor.fetchall()
-
+# Hàm lấy ds task trùng tên
+def  get_task_byName(name):
+    cursor.execute('SELECT ROW_NUMBER() OVER(ORDER BY t.ID) AS STT, t.*, u.username FROM tasks t LEFT JOIN users u ON u.id = t.userid where t.name = N\'' + name + '\'' )
+    return cursor.fetchall()
 # Hàm để thêm công việc mới
 def add_task(name, description, id,status='Pending'):
-    try:
-        cursor.execute('''
-            INSERT INTO tasks (name, description, status, userid)
-            VALUES (?, ?, ?, ?)
-        ''', (name, description, status, id))
-        conn.commit()
-        logging.info(f"Task added: {name}")
+    try:        
+        a = get_task_byName(name)
+        if a.__len__() > 0:
+            logging.error(f"task already exists: {name}") 
+            return False   
+        else:
+            cursor.execute('''
+                INSERT INTO tasks (name, description, status, userid)
+                VALUES (?, ?, ?, ?)
+            ''', (name, description, status, id))
+            conn.commit()
+            logging.info(f"Task added: {name}")
+            return True
     except Exception as e:
         flash(f"Error adding task: {str(e)}", 'error')
         logging.error(f"Error adding task: {str(e)}")
+        return False
 
 
 # Hàm để cập nhật trạng thái công việc
@@ -296,8 +306,16 @@ def add():
     name = request.form['name']
     description = request.form['description'] 
     id = request.form.get('users')
-    add_task(name, description, id)
-    return redirect(url_for('index'))
+    username = session.get('username')
+    userid = session.get('id')
+    tasks = get_tasks(userid)
+    users = get_users(userid)           
+    if add_task(name, description, id):
+        return redirect(url_for('index'))
+    else:                      
+        warning = "Task already exists. Please re-enter!"
+        return render_template('index.html', tasks=tasks,username=username, users = users, warning = warning)             
+
 # Route để cập nhật trạng thái công việc
 @app.route('/update/<int:task_id>/<new_status>')
 def update(task_id, new_status):

@@ -33,7 +33,12 @@
             <div class="mb-3">
                 <label class="form-label" for="name">Task Name:</label>
                 <input type="text" name="name" required class="form-control">
+            </div>            
+            {% if warning %}
+            <div class="alert alert-danger" role="alert">
+                <p>{{ warning }}</p>
             </div>
+            {% endif %}              
             <div class="mb-3">
                 <label for="description" class="form-label">Description:</label>
                 <textarea name="description" class="form-control"></textarea>
